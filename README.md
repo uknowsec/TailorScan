@@ -1,6 +1,5 @@
-### TailorScan
+## TailorScan
 
-#### 
 
 扫描是内网渗透的一个主要组成部分，自认为，在内网中CLI与GUI更偏向于CLI。更适用于webshell，CobaltStrike等一些C2工具。同时在编程语言方面，Go更为合适，交叉编译支持多平台兼容性好相较于Python和C#，开发难度较小相较于C/C++。个人需求，在内网更多的是端口扫描，探测存活和ms17010检测这几部分的需求比较多。
 
@@ -43,3 +42,7 @@ example: TailorScan.exe oxidfind -n 192.168.0.1/24
 ICMP check
 example: TailorScan.exe icmpcheck 192.168.0.1/24
 ```
+
+### References
+
+https://github.com/Adminisme/ServerScan
