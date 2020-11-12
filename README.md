@@ -4,7 +4,7 @@
 
 扫描是内网渗透的一个主要组成部分，自认为，在内网中CLI与GUI更偏向于CLI。更适用于webshell，CobaltStrike等一些C2工具。同时在编程语言方面，Go更为合适，交叉编译支持多平台兼容性好相较于Python和C#，开发难度较小相较于C/C++。个人需求，在内网更多的是端口扫描，探测存活和ms17010检测这几部分的需求比较多。
 
-秉着不重复造轮子和能用就行的原则，发现github上的https://github.com/Adminisme/ServerScan满足我在端口扫描上的需求。下面是GitHub给出的介绍
+秉着不重复造轮子和能用就行的原则，发现github上的[ServerScan](https://github.com/Adminisme/ServerScan)满足我在端口扫描上的需求。下面是GitHub给出的介绍
 
 - 多平台支持（Windows、Mac、Linux、Cobalt Strike）
 - 存活IP探测（支持TCP、ICMP两种模式）
